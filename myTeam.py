@@ -13,7 +13,8 @@
 
 
 from contest.captureAgents import CaptureAgent
-import random, time, util
+import random, time
+import contest.util as util
 from contest.game import Directions
 import contest.game as game
 import sys, os, platform
@@ -50,7 +51,7 @@ ANTICIPATER = []
 # Team creation #
 #################
 
-def createTeam(firstIndex, secondIndex, isRed,
+def create_team(firstIndex, secondIndex, isRed,
                first='MasterPDDLAgent', second='MasterPDDLAgent'):
   """
   This function should return a list of two agents that will form the
