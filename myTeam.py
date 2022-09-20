@@ -12,15 +12,15 @@
 # Pieter Abbeel (pabbeel@cs.berkeley.edu).
 
 
-from captureAgents import CaptureAgent
+from contest.captureAgents import CaptureAgent
 import random, time, util
-from game import Directions
-import game
+from contest.game import Directions
+import contest.game as game
 import sys, os, platform
 import re
 import subprocess
 import math
-from util import nearestPoint, Queue
+from contest.util import nearestPoint, Queue
 from collections import Counter
 
 # FF real path
